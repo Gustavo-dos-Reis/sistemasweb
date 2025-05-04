@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Abas Dinâmicas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conteúdo por Abas</h1>
+        
+        <div class="tabs-container">
+            <div class="tabs-header">
+                <button class="tab-btn ativo" data-tab="tab1">Informações</button>
+                <button class="tab-btn" data-tab="tab2">Produtos</button>
+                <button class="tab-btn" data-tab="tab3">Contato</button>
+                <div class="tab-underline"></div>
+            </div>
+            
+            <div class="tabs-content">
+                <div class="tab-pane ativo" id="tab1">
+                    <h2>Informações Gerais</h2>
+                    <p>Conteúdo da primeira aba. Aqui você pode colocar informações importantes sobre seu produto ou serviço.</p>
+                </div>
+                
+                <div class="tab-pane" id="tab2">
+                    <h2>Nossos Produtos</h2>
+                    <ul>
+                        <li>Produto 1 - Descrição breve</li>
+                        <li>Produto 2 - Descrição breve</li>
+                        <li>Produto 3 - Descrição breve</li>
+                    </ul>
+                </div>
+                
+                <div class="tab-pane" id="tab3">
+                    <h2>Entre em Contato</h2>
+                    <p>Email: contato@exemplo.com</p>
+                    <p>Telefone: (11) 99999-9999</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
